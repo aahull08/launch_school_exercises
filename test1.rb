@@ -1,1 +1,7 @@
-puts "I'm trying to look at git now what if i change it."
+def repeat(word, num)
+  num.times do
+    puts word
+  end
+end 
+
+repeat("Hello", 5)
